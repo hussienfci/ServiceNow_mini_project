@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>total_price</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-04 07:38:34</sys_created_on>
+        <sys_id>808bb234538d3210829a70c0a0490e29</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>total_price</sys_name>
+        <sys_package display_value="equipment_request_sn_135" source="x_1850489_mini_p_0">5c9c9bdf53f83210829a70c0a0490e84</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="equipment_request_sn_135">5c9c9bdf53f83210829a70c0a0490e84</sys_scope>
+        <sys_update_name>sys_ui_policy_action_808bb234538d3210829a70c0a0490e29</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-04 07:38:34</sys_updated_on>
+        <table>x_1850489_mini_p_0_equipments_requests</table>
+        <ui_policy display_value="total cost UI policies">c48bb234538d3210829a70c0a0490e21</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=808bb234538d3210829a70c0a0490e29"/>
+</record_update>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application display_value="equipments requests">91ec7b7453857210829a70c0a0490ea3</application>
+        <filter/>
+        <name>equipments requests</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_1850489_mini_p_0.equipments_requests_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-04 12:24:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d1ec7b7453857210829a70c0a0490ea7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>equipments requests</sys_name>
+        <sys_package display_value="equipment_request_sn_135" source="x_1850489_mini_p_0">5c9c9bdf53f83210829a70c0a0490e84</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="equipment_request_sn_135">5c9c9bdf53f83210829a70c0a0490e84</sys_scope>
+        <sys_update_name>sys_ui_module_d1ec7b7453857210829a70c0a0490ea7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-04 12:24:17</sys_updated_on>
+        <table>x_1850489_mini_p_0_st_equipments_requests</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="equipment_request_sn_135">5c9c9bdf53f83210829a70c0a0490e84</application>
+        <file_path/>
+        <instance_id>bd97104dfb8616540921f633beefdc9c</instance_id>
+        <instance_name>dev291134</instance_name>
+        <name>sys_ui_module_d1ec7b7453857210829a70c0a0490ea7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="equipments requests">91ec7b7453857210829a70c0a0490ea3</application><filter/><name>equipments requests</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>x_1850489_mini_p_0.equipments_requests_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-11-04 12:24:17</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>d1ec7b7453857210829a70c0a0490ea7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>equipments requests</sys_name><sys_package display_value="equipment_request_sn_135" source="x_1850489_mini_p_0">5c9c9bdf53f83210829a70c0a0490e84</sys_package><sys_policy/><sys_scope display_value="equipment_request_sn_135">5c9c9bdf53f83210829a70c0a0490e84</sys_scope><sys_update_name>sys_ui_module_d1ec7b7453857210829a70c0a0490ea7</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-11-04 12:24:17</sys_updated_on><table>x_1850489_mini_p_0_st_equipments_requests</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+        <payload_hash>1550793665</payload_hash>
+        <record_name>equipments requests</record_name>
+        <reverted_from/>
+        <source>1d887b3c53457210829a70c0a0490e79</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-04 12:24:17</sys_created_on>
+        <sys_id>d9ec7b7453857210829a70c0a0490eaa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19a4ed33a8a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-04 12:24:17</sys_updated_on>
+        <type>Module</type>
+        <update_guid>59ec7b74eb857210c12cc4d7a180d5a9</update_guid>
+        <update_guid_history>59ec7b74eb857210c12cc4d7a180d5a9:1550793665</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-04 12:25:04</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>0c65d6fabbf84c28866395bc5affd3f1</sys_id>
+        <sys_metadata>d1ec7b7453857210829a70c0a0490ea7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>equipments requests</sys_name>
+        <sys_package display_value="equipment_request_sn_135" source="x_1850489_mini_p_0">5c9c9bdf53f83210829a70c0a0490e84</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="equipment_request_sn_135">5c9c9bdf53f83210829a70c0a0490e84</sys_scope>
+        <sys_scope_delete display_value="">b2ac5b7a3f4c4889aaaf8c173ce49071</sys_scope_delete>
+        <sys_update_name>sys_ui_module_d1ec7b7453857210829a70c0a0490ea7</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_d1ec7b7453857210829a70c0a0490ea7">d9ec7b7453857210829a70c0a0490eaa</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-04 12:25:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

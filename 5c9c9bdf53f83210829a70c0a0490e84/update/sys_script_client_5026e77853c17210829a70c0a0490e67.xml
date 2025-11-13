@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>price</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>peice_price_onChange</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+   var piece_price = g_form.getValue('price') ;
+   var quantity = g_form.getValue('quantity') ; 
+   var total_cost = piece_price * quantity ; 
+//    alert('total_cost: ' + g_form.getValue('total_price')) ;
+   g_form.setValue('total_price' , total_cost) ; 
+  
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-04 10:45:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5026e77853c17210829a70c0a0490e67</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>peice_price_onChange</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="equipment_request_sn_135" source="x_1850489_mini_p_0">5c9c9bdf53f83210829a70c0a0490e84</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="equipment_request_sn_135">5c9c9bdf53f83210829a70c0a0490e84</sys_scope>
+        <sys_update_name>sys_script_client_5026e77853c17210829a70c0a0490e67</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-04 10:45:48</sys_updated_on>
+        <table>x_1850489_mini_p_0_equipments_requests</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

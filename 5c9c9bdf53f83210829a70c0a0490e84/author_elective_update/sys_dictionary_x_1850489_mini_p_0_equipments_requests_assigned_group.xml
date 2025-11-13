@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="assigned_group" table="x_1850489_mini_p_0_equipments_requests">
+        <active>true</active>
+        <array>false</array>
+        <attributes/>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>assigned_group</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>assigned_group</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="Reference">reference</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <name>x_1850489_mini_p_0_equipments_requests</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="Task" name="task">task</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-09 22:58:41</sys_created_on>
+        <sys_id>8f0ebbe25381f610829a70c0a0490e28</sys_id>
+        <sys_name>assigned_group</sys_name>
+        <sys_package display_value="equipment_request_sn_135" source="x_1850489_mini_p_0">5c9c9bdf53f83210829a70c0a0490e84</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="equipment_request_sn_135">5c9c9bdf53f83210829a70c0a0490e84</sys_scope>
+        <sys_update_name>sys_dictionary_x_1850489_mini_p_0_equipments_requests_assigned_group</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-09 22:58:42</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="equipment_request_sn_135">5c9c9bdf53f83210829a70c0a0490e84</application>
+        <file_path/>
+        <instance_id>bd97104dfb8616540921f633beefdc9c</instance_id>
+        <instance_name>dev291134</instance_name>
+        <name>sys_dictionary_x_1850489_mini_p_0_equipments_requests_assigned_group</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="assigned_group" table="x_1850489_mini_p_0_equipments_requests"><active>true</active><array>false</array><attributes/><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>assigned_group</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>assigned_group</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="Reference">reference</internal_type><mandatory>false</mandatory><max_length>32</max_length><name>x_1850489_mini_p_0_equipments_requests</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference display_value="Task" name="task">task</reference><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-11-09 22:58:41</sys_created_on><sys_id>8f0ebbe25381f610829a70c0a0490e28</sys_id><sys_name>assigned_group</sys_name><sys_package display_value="equipment_request_sn_135" source="x_1850489_mini_p_0">5c9c9bdf53f83210829a70c0a0490e84</sys_package><sys_policy/><sys_scope display_value="equipment_request_sn_135">5c9c9bdf53f83210829a70c0a0490e84</sys_scope><sys_update_name>sys_dictionary_x_1850489_mini_p_0_equipments_requests_assigned_group</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-11-09 22:58:42</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+        <payload_hash>-376575785</payload_hash>
+        <record_name>equipments_requests.assigned_group</record_name>
+        <reverted_from/>
+        <source>949c9bdf53f83210829a70c0a0490ea6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-09 22:58:42</sys_created_on>
+        <sys_id>d30efbe25381f610829a70c0a0490e70</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19a6ad7dc360000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-09 22:58:42</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>930efbe2dc81f6101172604c74fd396f</update_guid>
+        <update_guid_history>930efbe2dc81f6101172604c74fd396f:-376575785,930efbe26781f610a7cd39c423872b60:1299186615,4f0efbe20c81f61037f4d60093fc0e52:967740266</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-10 10:11:25</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>01aeb291fe344d858013456ef597e101</sys_id>
+        <sys_metadata>8f0ebbe25381f610829a70c0a0490e28</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>assigned_group</sys_name>
+        <sys_package display_value="equipment_request_sn_135" source="x_1850489_mini_p_0">5c9c9bdf53f83210829a70c0a0490e84</sys_package>
+        <sys_parent display_value="equipments_requests">5b7e5fd3533c3210829a70c0a0490ee8</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="equipment_request_sn_135">5c9c9bdf53f83210829a70c0a0490e84</sys_scope>
+        <sys_scope_delete display_value="">b2ac5b7a3f4c4889aaaf8c173ce49071</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_1850489_mini_p_0_equipments_requests_assigned_group</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_1850489_mini_p_0_equipments_requests_assigned_group">d30efbe25381f610829a70c0a0490e70</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-10 10:11:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
