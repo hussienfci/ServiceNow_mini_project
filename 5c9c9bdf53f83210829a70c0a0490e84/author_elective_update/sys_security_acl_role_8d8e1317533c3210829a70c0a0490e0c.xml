@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-30 18:20:40</sys_created_on>
+        <sys_id>8d8e1317533c3210829a70c0a0490e0c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1850489_mini_p_0_equipments_requests.x_1850489_mini_p_0.admin</sys_name>
+        <sys_package display_value="equipment_request_sn_135" source="x_1850489_mini_p_0">5c9c9bdf53f83210829a70c0a0490e84</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="equipment_request_sn_135">5c9c9bdf53f83210829a70c0a0490e84</sys_scope>
+        <sys_security_acl display_value="x_1850489_mini_p_0_equipments_requests">898e1317533c3210829a70c0a0490e07</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_8d8e1317533c3210829a70c0a0490e0c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-30 18:20:40</sys_updated_on>
+        <sys_user_role display_value="x_1850489_mini_p_0.admin" name="x_1850489_mini_p_0.admin">149c9bdf53f83210829a70c0a0490ec9</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="equipment_request_sn_135">5c9c9bdf53f83210829a70c0a0490e84</application>
+        <file_path/>
+        <instance_id>bd97104dfb8616540921f633beefdc9c</instance_id>
+        <instance_name>dev291134</instance_name>
+        <name>sys_security_acl_role_8d8e1317533c3210829a70c0a0490e0c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-10-30 18:20:40</sys_created_on><sys_id>8d8e1317533c3210829a70c0a0490e0c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1850489_mini_p_0_equipments_requests.x_1850489_mini_p_0.admin</sys_name><sys_package display_value="equipment_request_sn_135" source="x_1850489_mini_p_0">5c9c9bdf53f83210829a70c0a0490e84</sys_package><sys_policy/><sys_scope display_value="equipment_request_sn_135">5c9c9bdf53f83210829a70c0a0490e84</sys_scope><sys_security_acl display_value="x_1850489_mini_p_0_equipments_requests">898e1317533c3210829a70c0a0490e07</sys_security_acl><sys_update_name>sys_security_acl_role_8d8e1317533c3210829a70c0a0490e0c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-10-30 18:20:40</sys_updated_on><sys_user_role display_value="x_1850489_mini_p_0.admin" name="x_1850489_mini_p_0.admin">149c9bdf53f83210829a70c0a0490ec9</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-1311900983</payload_hash>
+        <record_name>x_1850489_mini_p_0_equipments_requests.x_1850489_mini_p_0.admin</record_name>
+        <reverted_from/>
+        <source>949c9bdf53f83210829a70c0a0490ea6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-30 18:20:40</sys_created_on>
+        <sys_id>818e1317533c3210829a70c0a0490e12</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19a3659b7ef0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-30 18:20:40</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>418e1317283c32104e54743ee104fb11</update_guid>
+        <update_guid_history>418e1317283c32104e54743ee104fb11:-1311900983</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1850489_mini_p_0_equipments_requests.x_1850489_mini_p_0.admin">bbd8776a5341f610829a70c0a0490ebc</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-09 22:36:05</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>8af45245a7bc46908f9fe1bdf43981c1</sys_id>
+        <sys_metadata>8d8e1317533c3210829a70c0a0490e0c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1850489_mini_p_0_equipments_requests.x_1850489_mini_p_0.admin</sys_name>
+        <sys_package display_value="equipment_request_sn_135" source="x_1850489_mini_p_0">5c9c9bdf53f83210829a70c0a0490e84</sys_package>
+        <sys_parent display_value="x_1850489_mini_p_0_equipments_requests">898e1317533c3210829a70c0a0490e07</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="equipment_request_sn_135">5c9c9bdf53f83210829a70c0a0490e84</sys_scope>
+        <sys_scope_delete display_value="">b2ac5b7a3f4c4889aaaf8c173ce49071</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_8d8e1317533c3210829a70c0a0490e0c</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_8d8e1317533c3210829a70c0a0490e0c">818e1317533c3210829a70c0a0490e12</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-09 22:36:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

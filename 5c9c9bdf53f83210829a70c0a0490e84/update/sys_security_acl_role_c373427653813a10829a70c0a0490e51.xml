@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-10 08:43:11</sys_created_on>
+        <sys_id>c373427653813a10829a70c0a0490e51</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1850489_mini_p_0_equipments_requests.x_1850489_mini_p_0.admin</sys_name>
+        <sys_package display_value="equipment_request_sn_135" source="x_1850489_mini_p_0">5c9c9bdf53f83210829a70c0a0490e84</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="equipment_request_sn_135">5c9c9bdf53f83210829a70c0a0490e84</sys_scope>
+        <sys_security_acl display_value="x_1850489_mini_p_0_equipments_requests">898edfd3533c3210829a70c0a0490efa</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_c373427653813a10829a70c0a0490e51</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-10 08:43:11</sys_updated_on>
+        <sys_user_role display_value="x_1850489_mini_p_0.admin" name="x_1850489_mini_p_0.admin">149c9bdf53f83210829a70c0a0490ec9</sys_user_role>
+    </sys_security_acl_role>
+</record_update>

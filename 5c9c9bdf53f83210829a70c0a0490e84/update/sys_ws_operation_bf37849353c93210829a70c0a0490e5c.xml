@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_operation">
+    <sys_ws_operation action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <consumes>application/json,application/xml,text/xml</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_operation_uri/>
+        <enforce_acl/>
+        <http_method>POST</http_method>
+        <name>createReq</name>
+        <operation_script><![CDATA[(function process( /*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+	
+    try {
+        var reqResponse = [];
+        // Intialize input data in body
+        var equipment, requester, quantity;
+
+        // body
+        var result = request.body.data;
+       
+		// Validation phase
+        // In this condition we will validate if the equipment is string, has been entered,
+		//  and 
+		// also if only the value is ['Laptop', 'mobile' , 'monitor'], This condition made in POSTMAN Script
+        if (
+            typeof result.equipment !== 'string' ||
+            !result.equipment
+        ) {
+            response.setStatus(400); // Bad request
+            return {
+                error:  "Invalid data, equipment should Required in String type..! "
+            };
+        } else
+            equipment = result.equipment;
+
+        if (
+            typeof result.requester !== 'string' || 
+            !result.requester) {
+            response.setStatus(400); // Bad request
+            return {
+                error: "Invalid data, requester should Required in String type..!"
+            };
+        } else
+            requester = result.requester;
+
+        if (
+            typeof result.quantity !== 'number' ||
+            !result.quantity) {
+            response.setStatus(400); // Bad request
+            return {
+                error: "Invalid data, quantity should Required in number type..!"
+            };
+        } else
+            quantity = result.quantity;
+
+
+        // insert New record stage
+        var equipReqObj = new GlideRecord('x_1850489_mini_p_0_equipments_requests');
+
+        var userObj = new GlideRecord('sys_user');
+
+        equipReqObj.initialize();
+
+        equipReqObj.equipment = equipment;
+        equipReqObj.quantity = quantity;
+        // Pricing of each equipment item
+        if (equipment == 'Laptop')
+            equipReqObj.price = 300;
+        else if (equipment == 'mobile')
+            equipReqObj.price = 150;
+        else
+            equipReqObj.price = 200;
+        equipReqObj.total_price = equipReqObj.quantity * equipReqObj.price;
+        // Determine if the requester name is found in the table or not
+        userObj.addQuery('user_name', requester);
+        userObj.query();
+        if (userObj.next()) {
+            equipReqObj.requester = requester;
+
+            // If the requester has manager field with null value (blank), so will put "hussien.m" as manager
+            var defaultManagerSysId = '41c03f4253c1f210829a70c0a0490ee2';
+            // "sys_id" of "hussien.m" 
+
+            // Case of requester manager is blank
+            if (userObj.manager.nil) {
+                // Add hussien.m to the manager
+                equipReqObj.manager = defaultManagerSysId;
+            }
+            // otherwise
+            else {
+                // Set value of manager in equipment table
+                equipReqObj.manager = userObj.manager;
+            }
+        } else {
+            response.setStatus(400); // Bad request
+            response.setBody({
+                error: "Invalid requester..!"
+            });
+        }
+
+        var equipSysId = equipReqObj.insert();
+        if (!equipSysId) {
+            response.setStatus(500);
+            return {
+                error: "Faild to create Equipment Request "
+            };
+        }
+        response.setStatus(201); // created successfully
+        return {
+            message: "Equipment Request created successfully :)",
+            sys_id: equipSysId,
+        };
+    } catch (error) {
+        // Error recogonize
+        response.setStatus(500); 
+        return {
+            error: error.message
+        };
+    }
+
+
+})(request, response);]]></operation_script>
+        <operation_uri>/api/x_1850489_mini_p_0/equipmentreq/api/x_itreq/request</operation_uri>
+        <produces>application/json,application/xml,text/xml</produces>
+        <produces_customized>false</produces_customized>
+        <relative_path>/api/x_itreq/request</relative_path>
+        <request_example/>
+        <requires_acl_authorization>true</requires_acl_authorization>
+        <requires_authentication>true</requires_authentication>
+        <requires_snc_internal_role>true</requires_snc_internal_role>
+        <short_description/>
+        <sys_class_name>sys_ws_operation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-11 14:25:51</sys_created_on>
+        <sys_id>bf37849353c93210829a70c0a0490e5c</sys_id>
+        <sys_mod_count>108</sys_mod_count>
+        <sys_name>createReq</sys_name>
+        <sys_package display_value="equipment_request_sn_135" source="x_1850489_mini_p_0">5c9c9bdf53f83210829a70c0a0490e84</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="equipment_request_sn_135">5c9c9bdf53f83210829a70c0a0490e84</sys_scope>
+        <sys_update_name>sys_ws_operation_bf37849353c93210829a70c0a0490e5c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-11 20:47:45</sys_updated_on>
+        <web_service_definition display_value="rest_api_ItReq">2e66049b53893210829a70c0a0490e24</web_service_definition>
+        <web_service_version/>
+    </sys_ws_operation>
+</record_update>

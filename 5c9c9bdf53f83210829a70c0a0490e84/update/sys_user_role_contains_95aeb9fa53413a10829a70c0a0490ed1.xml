@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="INSERT_OR_UPDATE">
+        <contains display_value="itil" name="itil">282bf1fac6112285017366cb5f867469</contains>
+        <role display_value="x_1850489_mini_p_0.admin" name="x_1850489_mini_p_0.admin">149c9bdf53f83210829a70c0a0490ec9</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-10 08:20:33</sys_created_on>
+        <sys_id>95aeb9fa53413a10829a70c0a0490ed1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>itil.x_1850489_mini_p_0.admin</sys_name>
+        <sys_package display_value="equipment_request_sn_135" source="x_1850489_mini_p_0">5c9c9bdf53f83210829a70c0a0490e84</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="equipment_request_sn_135">5c9c9bdf53f83210829a70c0a0490e84</sys_scope>
+        <sys_update_name>sys_user_role_contains_95aeb9fa53413a10829a70c0a0490ed1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-10 08:20:33</sys_updated_on>
+    </sys_user_role_contains>
+</record_update>
