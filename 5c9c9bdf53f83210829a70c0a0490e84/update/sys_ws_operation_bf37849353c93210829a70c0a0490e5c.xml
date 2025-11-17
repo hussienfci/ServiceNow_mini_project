@@ -8,7 +8,22 @@
         <http_method>POST</http_method>
         <name>createReq</name>
         <operation_script><![CDATA[(function process( /*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
-	
+	function isEmpty(elem){
+		if(!elem){
+			return true ; 
+
+		}
+		else 
+			return false ; 
+	}
+	function isSameType(elem, type){
+		console.log(typeof elem) ;
+		gs.addErrorMessage(typeof elem) ;  
+		if(typeof elem !== type)
+			return true ;
+		else 
+			return false ; 
+	}
     try {
         var reqResponse = [];
         // Intialize input data in body
@@ -20,21 +35,24 @@
 		// Validation phase
         // In this condition we will validate if the equipment is string, has been entered,
 		//  and 
-		// also if only the value is ['Laptop', 'mobile' , 'monitor'], This condition made in POSTMAN Script
+		// also if only the value is ['Laptop', 'mobile' , 'monitor']
         if (
-            typeof result.equipment !== 'string' ||
-            !result.equipment
+            isSameType(result.equipment , "string") ||
+            isEmpty(result.equipment)
+			|| JSON.stringify(result.equipment) !==  "\"Laptop\""&& 
+			JSON.stringify(result.equipment) !== "\"monitor\"" && 
+			JSON.stringify(result.equipment) !== "\"mobile\""
         ) {
             response.setStatus(400); // Bad request
-            return {
-                error:  "Invalid data, equipment should Required in String type..! "
+            return  { 
+                error:  "Invalid data, equipment should Required in String type ..! "
             };
         } else
             equipment = result.equipment;
 
         if (
-            typeof result.requester !== 'string' || 
-            !result.requester) {
+            isSameType(result.requester , "string") || 
+            isEmpty(result.requester)) {
             response.setStatus(400); // Bad request
             return {
                 error: "Invalid data, requester should Required in String type..!"
@@ -43,18 +61,18 @@
             requester = result.requester;
 
         if (
-            typeof result.quantity !== 'number' ||
-            !result.quantity) {
+			isSameType(result.quantity , "number")||
+			isEmpty(result.quantity)) {
             response.setStatus(400); // Bad request
             return {
-                error: "Invalid data, quantity should Required in number type..!"
+                error: "Invalid data, quantity should Required in number type..! " 
             };
         } else
             quantity = result.quantity;
 
 
         // insert New record stage
-        var equipReqObj = new GlideRecord('x_1850489_mini_p_0_equipments_requests');
+        var equipReqObj = new GlideRecordSecure('x_1850489_mini_p_0_equipments_requests');
 
         var userObj = new GlideRecord('sys_user');
 
@@ -95,6 +113,9 @@
             response.setBody({
                 error: "Invalid requester..!"
             });
+			return {
+                error:  "Invalid requester..! "
+            }; 
         }
 
         var equipSysId = equipReqObj.insert();
@@ -132,14 +153,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-11-11 14:25:51</sys_created_on>
         <sys_id>bf37849353c93210829a70c0a0490e5c</sys_id>
-        <sys_mod_count>108</sys_mod_count>
+        <sys_mod_count>144</sys_mod_count>
         <sys_name>createReq</sys_name>
         <sys_package display_value="equipment_request_sn_135" source="x_1850489_mini_p_0">5c9c9bdf53f83210829a70c0a0490e84</sys_package>
         <sys_policy/>
         <sys_scope display_value="equipment_request_sn_135">5c9c9bdf53f83210829a70c0a0490e84</sys_scope>
         <sys_update_name>sys_ws_operation_bf37849353c93210829a70c0a0490e5c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-11-11 20:47:45</sys_updated_on>
+        <sys_updated_on>2025-11-17 20:45:38</sys_updated_on>
         <web_service_definition display_value="rest_api_ItReq">2e66049b53893210829a70c0a0490e24</web_service_definition>
         <web_service_version/>
     </sys_ws_operation>
