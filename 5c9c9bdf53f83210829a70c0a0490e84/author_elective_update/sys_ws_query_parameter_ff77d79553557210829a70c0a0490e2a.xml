@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_query_parameter">
+    <sys_ws_query_parameter action="DELETE">
+        <example_value>abel.tuter</example_value>
+        <name>user_name</name>
+        <required>false</required>
+        <short_description>record of request or manager with the entered user-name</short_description>
+        <sys_class_name>sys_ws_query_parameter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-18 09:16:25</sys_created_on>
+        <sys_id>ff77d79553557210829a70c0a0490e2a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>user_name</sys_name>
+        <sys_package display_value="equipment_request_sn_135" source="x_1850489_mini_p_0">5c9c9bdf53f83210829a70c0a0490e84</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="equipment_request_sn_135">5c9c9bdf53f83210829a70c0a0490e84</sys_scope>
+        <sys_update_name>sys_ws_query_parameter_ff77d79553557210829a70c0a0490e2a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-18 09:16:25</sys_updated_on>
+        <web_service_definition display_value="IT_req_GET">ac8e2e9553117210829a70c0a0490e97</web_service_definition>
+    </sys_ws_query_parameter>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="equipment_request_sn_135">5c9c9bdf53f83210829a70c0a0490e84</application>
+        <file_path/>
+        <instance_id>bd97104dfb8616540921f633beefdc9c</instance_id>
+        <instance_name>dev291134</instance_name>
+        <name>sys_ws_query_parameter_ff77d79553557210829a70c0a0490e2a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_query_parameter"><sys_ws_query_parameter action="INSERT_OR_UPDATE"><example_value>abel.tuter</example_value><name>user_name</name><required>false</required><short_description>record of request or manager with the entered user-name</short_description><sys_class_name>sys_ws_query_parameter</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-11-18 09:16:25</sys_created_on><sys_id>ff77d79553557210829a70c0a0490e2a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>user_name</sys_name><sys_package display_value="equipment_request_sn_135" source="x_1850489_mini_p_0">5c9c9bdf53f83210829a70c0a0490e84</sys_package><sys_policy/><sys_scope display_value="equipment_request_sn_135">5c9c9bdf53f83210829a70c0a0490e84</sys_scope><sys_update_name>sys_ws_query_parameter_ff77d79553557210829a70c0a0490e2a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-11-18 09:16:25</sys_updated_on><web_service_definition display_value="IT_req_GET">ac8e2e9553117210829a70c0a0490e97</web_service_definition></sys_ws_query_parameter></record_update>]]></payload>
+        <payload_hash>-1769948424</payload_hash>
+        <record_name>user_name</record_name>
+        <reverted_from/>
+        <source>2954b9df53c57210829a70c0a0490e51</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-18 09:16:25</sys_created_on>
+        <sys_id>f928dbd553557210829a70c0a0490e45</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19a964044e80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-18 09:16:25</sys_updated_on>
+        <type>Scripted REST Query Parameter</type>
+        <update_guid>712853d56155721089affb4c260e6536</update_guid>
+        <update_guid_history>712853d56155721089affb4c260e6536:-1769948424</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-18 09:41:44</sys_created_on>
+        <sys_db_object display_value="" name="sys_ws_query_parameter">sys_ws_query_parameter</sys_db_object>
+        <sys_id>4f0bea15374e47f0bd718c804b275640</sys_id>
+        <sys_metadata>ff77d79553557210829a70c0a0490e2a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>user_name</sys_name>
+        <sys_package display_value="equipment_request_sn_135" source="x_1850489_mini_p_0">5c9c9bdf53f83210829a70c0a0490e84</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="equipment_request_sn_135">5c9c9bdf53f83210829a70c0a0490e84</sys_scope>
+        <sys_scope_delete display_value="">b2ac5b7a3f4c4889aaaf8c173ce49071</sys_scope_delete>
+        <sys_update_name>sys_ws_query_parameter_ff77d79553557210829a70c0a0490e2a</sys_update_name>
+        <sys_update_version display_value="sys_ws_query_parameter_ff77d79553557210829a70c0a0490e2a">f928dbd553557210829a70c0a0490e45</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-18 09:41:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
