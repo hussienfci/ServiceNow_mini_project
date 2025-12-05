@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="5b7e5fd3533c3210829a70c0a0490ee8" label="equipments_requests" max_length="40" name="x_1850489_mini_p_0_equipments_requests" type="collection">
-        <element label="Manager" max_length="32" name="manager" reference="sys_user" type="reference"/>
-        <element default="0" label="quantity" mandatory="true" max_length="40" name="quantity" type="integer"/>
-        <element choice="3" dependent="equipment" dependent_on_field="equipment" label="price/ piece" mandatory="true" max_length="40" name="price" type="integer" use_dependent_field="true">
+    <element db_object_id="5b7e5fd3533c3210829a70c0a0490ee8" label="equipments_requests" max_length="40" name="x_1850489_mini_p_0_equipments_requests" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Manager" max_length="32" name="manager" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="0" label="quantity" mandatory="true" max_length="40" name="quantity" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" dependent="equipment" dependent_on_field="equipment" label="price/ piece" mandatory="true" max_length="40" name="price" type="integer" use_dependent_field="true">
             <choice>
                 <element dependent_value="monitor" inactive_on_update="false" label="200" sequence="1" value="200"/>
                 <element dependent_value="mobile" inactive_on_update="false" label="150" sequence="2" value="150"/>
                 <element dependent_value="laptop" inactive_on_update="false" label="300" sequence="0" value="300"/>
             </choice>
         </element>
-        <element display="true" formula="quantity * price" label="total_cost" max_length="255" name="total_price" read_only="true" type="integer" use_dependent_field="true" virtual="true" virtual_type="formula"/>
+        <element attributes="edge_encryption_enabled=true" display="true" formula="quantity * price" label="total_cost" max_length="255" name="total_price" read_only="true" type="integer" use_dependent_field="true" virtual="true" virtual_type="formula"/>
         <element label="role" max_length="40" name="role" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
-        <element attributes="ref_auto_completer=AJAXTableCompleter,ref_ac_column=equipment;" choice="1" label="equipment" mandatory="true" max_length="40" name="equipment" type="choice">
+        <element attributes="edge_encryption_enabled=true,ref_ac_column=equipment;,ref_auto_completer=AJAXTableCompleter" choice="1" label="equipment" mandatory="true" max_length="40" name="equipment" type="choice">
             <choice>
                 <element inactive_on_update="false" label="mobile" sequence="1" value="mobile"/>
                 <element inactive_on_update="false" label="Laptop" sequence="0" value="laptop"/>
                 <element inactive_on_update="false" label="monitor" sequence="2" value="monitor"/>
             </choice>
         </element>
-        <element label="requester" mandatory="true" max_length="32" name="requester" reference="sys_user" type="reference"/>
-        <element default="javascript:gs.getUserID();" label="Assigned_to" max_length="32" name="assignment_to" reference="task" type="reference"/>
-        <element choice="3" default="pending Approval" label="Approval" max_length="40" name="approval" read_only="true" type="choice">
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="requester" mandatory="true" max_length="32" name="requester" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" default="javascript:gs.getUserID();" label="Assigned_to" max_length="32" name="assignment_to" reference="task" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="pending Approval" label="Approval" max_length="40" name="approval" read_only="true" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Rejected" sequence="1" value="rejected"/>
                 <element inactive_on_update="false" label="pending Approval" sequence="0" value="pending_approval"/>
                 <element inactive_on_update="false" label="Approved" sequence="2" value="approved"/>
             </choice>
         </element>
-        <element choice="1" dependent="approval" dependent_on_field="approval" label="state" max_length="40" name="state" type="choice" use_dependent_field="true">
+        <element choice="1" default="open" dependent="approval" dependent_on_field="approval" label="state" max_length="40" name="state" type="choice" use_dependent_field="true">
             <choice>
                 <element dependent_value="approved" inactive_on_update="false" label="fulfillment" sequence="1" value="fullfilment"/>
                 <element dependent_value="pending_approval" inactive_on_update="false" label="Requested" sequence="0" value="requested"/>

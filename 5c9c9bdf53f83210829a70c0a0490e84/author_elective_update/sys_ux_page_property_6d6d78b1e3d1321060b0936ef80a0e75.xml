@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description>sys_ux_applicability sys_id for Workspace audience</description>
+        <name>wbApplicabilityConfigId</name>
+        <page display_value="equipment_request_sn_135">296d78b10ed13210aec9e1f8449b3388</page>
+        <required_translations/>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-19 11:17:16</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>6d6d78b1e3d1321060b0936ef80a0e75</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>wbApplicabilityConfigId</sys_name>
+        <sys_package display_value="equipment_request_sn_135" source="x_1850489_mini_p_0">5c9c9bdf53f83210829a70c0a0490e84</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="equipment_request_sn_135">5c9c9bdf53f83210829a70c0a0490e84</sys_scope>
+        <sys_update_name>sys_ux_page_property_6d6d78b1e3d1321060b0936ef80a0e75</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-19 11:17:20</sys_updated_on>
+        <type>string</type>
+        <unique_name>x_1850489_mini_p_0.296d78b10ed13210aec9e1f8449b3388.root.global.wbApplicabilityConfigId</unique_name>
+        <value>7a6df8b153d13210829a70c0a0490e83</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="DELETE" query="documentkey=6d6d78b1e3d1321060b0936ef80a0e75"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="equipment_request_sn_135">5c9c9bdf53f83210829a70c0a0490e84</application>
+        <file_path/>
+        <instance_id>bd97104dfb8616540921f633beefdc9c</instance_id>
+        <instance_name>dev291134</instance_name>
+        <name>sys_ux_page_property_6d6d78b1e3d1321060b0936ef80a0e75</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description>sys_ux_applicability sys_id for Workspace audience</description><name>wbApplicabilityConfigId</name><page display_value="equipment_request_sn_135">296d78b10ed13210aec9e1f8449b3388</page><required_translations/><route/><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-11-19 11:17:16</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>6d6d78b1e3d1321060b0936ef80a0e75</sys_id><sys_mod_count>1</sys_mod_count><sys_name>wbApplicabilityConfigId</sys_name><sys_package display_value="equipment_request_sn_135" source="x_1850489_mini_p_0">5c9c9bdf53f83210829a70c0a0490e84</sys_package><sys_policy/><sys_scope display_value="equipment_request_sn_135">5c9c9bdf53f83210829a70c0a0490e84</sys_scope><sys_update_name>sys_ux_page_property_6d6d78b1e3d1321060b0936ef80a0e75</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-11-19 11:17:20</sys_updated_on><type>string</type><unique_name>x_1850489_mini_p_0.296d78b10ed13210aec9e1f8449b3388.root.global.wbApplicabilityConfigId</unique_name><value>7a6df8b153d13210829a70c0a0490e83</value></sys_ux_page_property><sys_translated_text action="delete_multiple" query="documentkey=6d6d78b1e3d1321060b0936ef80a0e75"/></record_update>]]></payload>
+        <payload_hash>-1758951343</payload_hash>
+        <record_name>wbApplicabilityConfigId</record_name>
+        <reverted_from/>
+        <source>d35c16bd539d3210829a70c0a0490e55</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-19 11:17:20</sys_created_on>
+        <sys_id>b66df8b153d13210829a70c0a0490ed0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_recorded_at>19a9bd554630000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-19 18:12:11</sys_updated_on>
+        <type>UX Page Property</type>
+        <update_guid>b26df8b159d13210f114da06603229cf</update_guid>
+        <update_guid_history>b26df8b159d13210f114da06603229cf:-1758951343,766df8b132d13210474263aa8c179dcc:-656823430</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-19 11:59:02</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>0188211978ac49448ed6c2d8d514ba44</sys_id>
+        <sys_metadata>6d6d78b1e3d1321060b0936ef80a0e75</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>wbApplicabilityConfigId</sys_name>
+        <sys_package display_value="equipment_request_sn_135" source="x_1850489_mini_p_0">5c9c9bdf53f83210829a70c0a0490e84</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="equipment_request_sn_135">5c9c9bdf53f83210829a70c0a0490e84</sys_scope>
+        <sys_scope_delete display_value="">b2ac5b7a3f4c4889aaaf8c173ce49071</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_6d6d78b1e3d1321060b0936ef80a0e75</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_6d6d78b1e3d1321060b0936ef80a0e75">b66df8b153d13210829a70c0a0490ed0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-19 11:59:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

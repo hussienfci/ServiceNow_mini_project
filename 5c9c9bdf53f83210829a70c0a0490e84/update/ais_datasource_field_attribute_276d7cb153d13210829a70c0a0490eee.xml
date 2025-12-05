@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_datasource_field_attribute">
+    <ais_datasource_field_attribute action="INSERT_OR_UPDATE">
+        <attribute display_value="map_to">f734a634c7320010d1cfd9795cc26094</attribute>
+        <datasource display_value="equipments_requests Table">a76d7cb153d13210829a70c0a0490e5b</datasource>
+        <field>sys_updated_on</field>
+        <source>x_1850489_mini_p_0_equipments_requests</source>
+        <sys_class_name>ais_datasource_field_attribute</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-19 11:17:23</sys_created_on>
+        <sys_id>276d7cb153d13210829a70c0a0490eee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1850489_mini_p_0_equipments_requests.sys_updated_on</sys_name>
+        <sys_package display_value="equipment_request_sn_135" source="x_1850489_mini_p_0">5c9c9bdf53f83210829a70c0a0490e84</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="equipment_request_sn_135">5c9c9bdf53f83210829a70c0a0490e84</sys_scope>
+        <sys_update_name>ais_datasource_field_attribute_276d7cb153d13210829a70c0a0490eee</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-19 11:17:23</sys_updated_on>
+        <value>sort_by_date</value>
+    </ais_datasource_field_attribute>
+</record_update>

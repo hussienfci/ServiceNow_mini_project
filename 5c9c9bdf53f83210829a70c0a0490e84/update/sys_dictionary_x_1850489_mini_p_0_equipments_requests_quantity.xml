@@ -2,7 +2,7 @@
     <sys_dictionary action="INSERT_OR_UPDATE" element="quantity" table="x_1850489_mini_p_0_equipments_requests">
         <active>true</active>
         <array>false</array>
-        <attributes/>
+        <attributes>edge_encryption_enabled=true</attributes>
         <audit>false</audit>
         <calculation/>
         <choice>0</choice>

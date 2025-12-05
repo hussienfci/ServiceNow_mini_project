@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description>Tabs Configuration</description>
+        <name>chrome_tab</name>
+        <page display_value="equipment_request_sn_135">296d78b10ed13210aec9e1f8449b3388</page>
+        <required_translations>[ {
+  "message" : "New equipments_requests",
+  "code" : "",
+  "comment" : ""
+} ]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-19 11:17:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>656d78b10dd132104175e5139c20c476</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>chrome_tab</sys_name>
+        <sys_package display_value="equipment_request_sn_135" source="x_1850489_mini_p_0">5c9c9bdf53f83210829a70c0a0490e84</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="equipment_request_sn_135">5c9c9bdf53f83210829a70c0a0490e84</sys_scope>
+        <sys_update_name>sys_ux_page_property_656d78b10dd132104175e5139c20c476</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-19 11:17:23</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_1850489_mini_p_0.296d78b10ed13210aec9e1f8449b3388.root.global.chrome_tab</unique_name>
+        <value>{"contextual":["record"],"newTabMenu":[{"label":{"translatable":true,"message":"New equipments_requests"},"routeInfo":{"route":"record","fields":{"table":"x_1850489_mini_p_0_equipments_requests","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1850489_mini_p_0_equipments_requests","canCreate":true}}}],"maxMainTabLimit":10,"maxTotalSubTabLimit":30}</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="DELETE" query="documentkey=656d78b10dd132104175e5139c20c476"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="equipment_request_sn_135">5c9c9bdf53f83210829a70c0a0490e84</application>
+        <file_path/>
+        <instance_id>bd97104dfb8616540921f633beefdc9c</instance_id>
+        <instance_name>dev291134</instance_name>
+        <name>sys_ux_page_property_656d78b10dd132104175e5139c20c476</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description>Tabs Configuration</description><name>chrome_tab</name><page display_value="equipment_request_sn_135">296d78b10ed13210aec9e1f8449b3388</page><required_translations>[ {
+  "message" : "New equipments_requests",
+  "code" : "",
+  "comment" : ""
+} ]</required_translations><route/><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-11-19 11:17:17</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>656d78b10dd132104175e5139c20c476</sys_id><sys_mod_count>1</sys_mod_count><sys_name>chrome_tab</sys_name><sys_package display_value="equipment_request_sn_135" source="x_1850489_mini_p_0">5c9c9bdf53f83210829a70c0a0490e84</sys_package><sys_policy/><sys_scope display_value="equipment_request_sn_135">5c9c9bdf53f83210829a70c0a0490e84</sys_scope><sys_update_name>sys_ux_page_property_656d78b10dd132104175e5139c20c476</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-11-19 11:17:23</sys_updated_on><type>json</type><unique_name>x_1850489_mini_p_0.296d78b10ed13210aec9e1f8449b3388.root.global.chrome_tab</unique_name><value>{"contextual":["record"],"newTabMenu":[{"label":{"translatable":true,"message":"New equipments_requests"},"routeInfo":{"route":"record","fields":{"table":"x_1850489_mini_p_0_equipments_requests","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1850489_mini_p_0_equipments_requests","canCreate":true}}}],"maxMainTabLimit":10,"maxTotalSubTabLimit":30}</value></sys_ux_page_property><sys_translated_text action="delete_multiple" query="documentkey=656d78b10dd132104175e5139c20c476"/></record_update>]]></payload>
+        <payload_hash>-958220425</payload_hash>
+        <record_name>chrome_tab</record_name>
+        <reverted_from/>
+        <source>d35c16bd539d3210829a70c0a0490e55</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-19 11:17:23</sys_created_on>
+        <sys_id>676d7cb153d13210829a70c0a0490e59</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_recorded_at>19a9bd55e220000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-19 18:12:12</sys_updated_on>
+        <type>UX Page Property</type>
+        <update_guid>276d7cb112d13210981a1da3057b0858</update_guid>
+        <update_guid_history>276d7cb112d13210981a1da3057b0858:-958220425,6f6d7cb18fd13210a3d43c9428f3fa3c:-369619437</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-19 11:59:02</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>3af4ad17a7f14294bb392ce7ec87d104</sys_id>
+        <sys_metadata>656d78b10dd132104175e5139c20c476</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_tab</sys_name>
+        <sys_package display_value="equipment_request_sn_135" source="x_1850489_mini_p_0">5c9c9bdf53f83210829a70c0a0490e84</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="equipment_request_sn_135">5c9c9bdf53f83210829a70c0a0490e84</sys_scope>
+        <sys_scope_delete display_value="">b2ac5b7a3f4c4889aaaf8c173ce49071</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_656d78b10dd132104175e5139c20c476</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_656d78b10dd132104175e5139c20c476">676d7cb153d13210829a70c0a0490e59</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-19 11:59:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

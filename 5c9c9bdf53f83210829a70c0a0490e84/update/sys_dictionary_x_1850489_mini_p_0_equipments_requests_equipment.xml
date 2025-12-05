@@ -2,7 +2,7 @@
     <sys_dictionary action="INSERT_OR_UPDATE" element="equipment" table="x_1850489_mini_p_0_equipments_requests">
         <active>true</active>
         <array>false</array>
-        <attributes>ref_auto_completer=AJAXTableCompleter,ref_ac_column=equipment;</attributes>
+        <attributes>edge_encryption_enabled=true,ref_ac_column=equipment;,ref_auto_completer=AJAXTableCompleter</attributes>
         <audit>false</audit>
         <calculation/>
         <choice>1</choice>
