@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="m2m_app_config_theme">
+    <m2m_app_config_theme action="DELETE">
+        <applicability/>
+        <order>0</order>
+        <sys_class_name>m2m_app_config_theme</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-19 11:17:16</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>616d78b107d1321013ee2c89e4c85386</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="equipment_request_sn_135" source="x_1850489_mini_p_0">5c9c9bdf53f83210829a70c0a0490e84</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="equipment_request_sn_135">5c9c9bdf53f83210829a70c0a0490e84</sys_scope>
+        <sys_update_name>m2m_app_config_theme_616d78b107d1321013ee2c89e4c85386</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-19 11:17:16</sys_updated_on>
+        <theme display_value="Base Agent Workspace theme">c012213bc39b10101d590cf06e40dd32</theme>
+        <ux_app_configuration display_value="">656d78b1bad132102a90dde37526e787</ux_app_configuration>
+    </m2m_app_config_theme>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="equipment_request_sn_135">5c9c9bdf53f83210829a70c0a0490e84</application>
+        <file_path/>
+        <instance_id>bd97104dfb8616540921f633beefdc9c</instance_id>
+        <instance_name>dev291134</instance_name>
+        <name>m2m_app_config_theme_616d78b107d1321013ee2c89e4c85386</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="m2m_app_config_theme"><m2m_app_config_theme action="INSERT_OR_UPDATE"><applicability/><order>0</order><sys_class_name>m2m_app_config_theme</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-11-19 11:17:16</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>616d78b107d1321013ee2c89e4c85386</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="equipment_request_sn_135" source="x_1850489_mini_p_0">5c9c9bdf53f83210829a70c0a0490e84</sys_package><sys_policy/><sys_scope display_value="equipment_request_sn_135">5c9c9bdf53f83210829a70c0a0490e84</sys_scope><sys_update_name>m2m_app_config_theme_616d78b107d1321013ee2c89e4c85386</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-11-19 11:17:16</sys_updated_on><theme display_value="Base Agent Workspace theme">c012213bc39b10101d590cf06e40dd32</theme><ux_app_configuration display_value="">656d78b1bad132102a90dde37526e787</ux_app_configuration></m2m_app_config_theme></record_update>]]></payload>
+        <payload_hash>303860024</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>0552382353203210829a70c0a0490e40</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2025-10-18 14:11:10</sys_created_on>
+        <sys_id>71f6c1f553153210829a70c0a0490eac</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>199f7a8f8300000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX App Theme</type>
+        <update_guid>31f6c1f571153210342592bc185162ac</update_guid>
+        <update_guid_history>31f6c1f571153210342592bc185162ac:303860024</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">bdf6c1f553153210829a70c0a0490eac</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-19 11:59:03</sys_created_on>
+        <sys_db_object display_value="" name="m2m_app_config_theme">m2m_app_config_theme</sys_db_object>
+        <sys_id>babf1b514c89448681f8abfba94a7339</sys_id>
+        <sys_metadata>616d78b107d1321013ee2c89e4c85386</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="equipment_request_sn_135" source="x_1850489_mini_p_0">5c9c9bdf53f83210829a70c0a0490e84</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="equipment_request_sn_135">5c9c9bdf53f83210829a70c0a0490e84</sys_scope>
+        <sys_scope_delete display_value="">b2ac5b7a3f4c4889aaaf8c173ce49071</sys_scope_delete>
+        <sys_update_name>m2m_app_config_theme_616d78b107d1321013ee2c89e4c85386</sys_update_name>
+        <sys_update_version display_value="m2m_app_config_theme_616d78b107d1321013ee2c89e4c85386">71f6c1f553153210829a70c0a0490eac</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-19 11:59:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
